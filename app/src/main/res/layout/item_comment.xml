@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="@dimen/margin_8dp"
+    android:layout_marginStart="@dimen/margin_8dp"
+    android:layout_marginTop="@dimen/margin_8dp"
+    tools:showIn="@layout/fragment_comments">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/commentEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0.87"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:paddingEnd="@dimen/padding_16dp"
+            android:paddingStart="@dimen/padding_16dp"
+            android:paddingTop="@dimen/padding_8dp"
+            tools:text="Eliseo@gardner.biz"/>
+        <TextView
+            android:id="@+id/commentName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0.54"
+            android:textColor="@android:color/black"
+            android:paddingEnd="@dimen/padding_16dp"
+            android:paddingStart="@dimen/padding_16dp"
+            tools:text="id labore ex et quam laborum"/>
+        <TextView
+            android:id="@+id/commentDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0.87"
+            android:textColor="@android:color/black"
+            android:paddingEnd="@dimen/padding_16dp"
+            android:paddingStart="@dimen/padding_16dp"
+            android:paddingBottom="@dimen/padding_8dp"
+            tools:text="quia et suscipi nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"/>
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
