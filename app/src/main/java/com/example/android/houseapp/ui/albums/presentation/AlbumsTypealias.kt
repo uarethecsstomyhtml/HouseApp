@@ -2,9 +2,9 @@ package com.example.android.houseapp.ui.albums.presentation
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
-import com.arman.guessmoviebymusic.base.domain.BaseUseCase
-import com.arman.guessmoviebymusic.base.domain.Either
-import com.arman.guessmoviebymusic.base.domain.Failure
+import com.example.android.houseapp.base.domain.BaseUseCase
+import com.example.android.houseapp.base.domain.Either
+import com.example.android.houseapp.base.domain.Failure
 import com.example.android.houseapp.ResultState
 import com.example.android.houseapp.base.entity.NetworkResponse
 import com.example.android.houseapp.ui.albums.domain.usecase.GetAlbumsUseCase

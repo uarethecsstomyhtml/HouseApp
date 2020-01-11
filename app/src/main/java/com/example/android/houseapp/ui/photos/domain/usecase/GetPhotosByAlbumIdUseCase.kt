@@ -1,11 +1,7 @@
 package com.example.android.houseapp.ui.photos.domain.usecase
 
-import com.arman.guessmoviebymusic.base.domain.Either
-import com.arman.guessmoviebymusic.base.domain.Failure
-import com.example.android.houseapp.ui.albums.data.repository.AlbumsRepository
-import com.example.android.houseapp.ui.comments.data.repository.CommentsRepository
-import com.example.android.houseapp.ui.comments.presentation.BaseGetCommentsByPostUseCase
-import com.example.android.houseapp.ui.comments.presentation.CommentsDTOListEither
+import com.example.android.houseapp.base.domain.Either
+import com.example.android.houseapp.base.domain.Failure
 import com.example.android.houseapp.ui.photos.data.repository.PhotosRepository
 import com.example.android.houseapp.ui.photos.presentation.BaseGetPhotosByAlbumIdUseCase
 import com.example.android.houseapp.ui.photos.presentation.PhotosDTOListEither

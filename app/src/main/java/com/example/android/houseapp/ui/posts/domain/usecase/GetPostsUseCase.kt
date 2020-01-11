@@ -1,7 +1,7 @@
 package com.example.android.houseapp.ui.posts.domain.usecase
 
-import com.arman.guessmoviebymusic.base.domain.Either
-import com.arman.guessmoviebymusic.base.domain.Failure
+import com.example.android.houseapp.base.domain.Either
+import com.example.android.houseapp.base.domain.Failure
 import com.example.android.houseapp.ui.posts.data.repository.PostsRepository
 import com.example.android.houseapp.ui.posts.presentation.BaseGetPostsUseCase
 import com.example.android.houseapp.ui.posts.presentation.PostsDTOListEither

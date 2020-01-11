@@ -1,4 +1,4 @@
-package com.arman.guessmoviebymusic.base.domain
+package com.example.android.houseapp.base.domain
 
 /**
  * Base Class for handling errors/failures/exceptions.

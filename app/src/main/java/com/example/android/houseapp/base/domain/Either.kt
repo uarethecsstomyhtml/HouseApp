@@ -1,4 +1,4 @@
-package com.arman.guessmoviebymusic.base.domain
+package com.example.android.houseapp.base.domain
 
 sealed class Either<out L, out R> {
 

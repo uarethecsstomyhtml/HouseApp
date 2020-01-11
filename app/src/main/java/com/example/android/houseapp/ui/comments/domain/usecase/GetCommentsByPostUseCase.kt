@@ -1,7 +1,7 @@
 package com.example.android.houseapp.ui.comments.domain.usecase
 
-import com.arman.guessmoviebymusic.base.domain.Either
-import com.arman.guessmoviebymusic.base.domain.Failure
+import com.example.android.houseapp.base.domain.Either
+import com.example.android.houseapp.base.domain.Failure
 import com.example.android.houseapp.ui.comments.data.repository.CommentsRepository
 import com.example.android.houseapp.ui.comments.presentation.BaseGetCommentsByPostUseCase
 import com.example.android.houseapp.ui.comments.presentation.CommentsDTOListEither

@@ -2,7 +2,7 @@ package com.example.android.houseapp.ui.photos.presentation
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.arman.guessmoviebymusic.base.domain.Failure
+import com.example.android.houseapp.base.domain.Failure
 import com.example.android.houseapp.extension.setError
 import com.example.android.houseapp.extension.setLoading
 import com.example.android.houseapp.extension.setSuccess
